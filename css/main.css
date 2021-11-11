@@ -1,0 +1,198 @@
+body {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "Avenir Next Cyr";
+}
+
+.hdr {
+  padding: 40px 135px;
+  background-color: #f4f6f7;
+}
+
+.hdr__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  max-width: 130px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav > li {
+  list-style: none;
+  margin-left: 50px;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.hdr__btm {
+  margin: 135px 0 178px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top__text {
+  max-width: 470px;
+}
+
+.pre-title {
+  color: #2557ab;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 46px;
+  margin: 5px 0 10px;
+}
+
+.get__now {
+  background-color: #ff7f57;
+  color: #fff;
+  font-weight: 600;
+  font-size: 17px;
+  padding: 19px 42px;
+  cursor: pointer;
+  transition: 0.3s linear;
+  border: none;
+}
+
+.orange__btn:hover {
+  background-color: #fff;
+  color: #ff7f57;
+  box-shadow: 2px 2px #ffdbd1, 4px 4px 4px 4px #ff7f57;
+  top: -4px;
+  left: -4px;
+  transform: translate(10px, 20px);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+}
+
+.services {
+  max-width: 1170px;
+  margin: 120px 135px 100px;
+}
+
+.srvc__title {
+  text-align: center;
+}
+
+.srvc__h2 {
+  font-size: 38px;
+  font-weight: 400;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.block {
+  width: 370px;
+}
+
+.benefits {
+  background-color: #f4f6f7;
+  padding: 60px 330px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h5 {
+  font-size: 46px;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+.plus {
+  color: #ff7f57;
+}
+
+.about__us {
+  margin: 100px 235px 200px;
+  max-width: 970px;
+}
+
+.about__title {
+  text-align: center;
+}
+
+.h3 {
+  font-size: 38px;
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+.about__text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_block {
+  width: 38%;
+}
+
+.cursive {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.rght_block {
+  width: 59%;
+}
+
+.logo__carousel {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px auto 0;
+}
+
+.hello-fresh-logo {
+  max-width: 66px;
+}
+
+.logo-trivago {
+  max-width: 126px;
+}
+
+.logo-LA-times {
+  max-width: 271px;
+}
+
+.logo-oracle {
+  max-width: 162px;
+}
+
+.logo-target {
+  max-width: 52px;
+}
+
+.info__block {
+  max-width: 1170px;
+  margin: 0 135px;
+  display: flex;
+}
+
+.info__img {
+  max-width: 600px;
+}
